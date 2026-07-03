@@ -1,0 +1,12 @@
+{:itonami.blueprint/id "cloud-itonami-iso3166-jpn-mext"
+ :itonami.blueprint/name "Independent MEXT Research-Grant & School-Accreditation Compliance Service — Japan (MEXT)"
+ :itonami.blueprint/iso3166 "JPN-MEXT"
+ :itonami.blueprint/iso3166-parent "JPN"
+ :itonami.blueprint/ooyake-id "gov.jpn.mext"
+ :itonami.blueprint/domain :public-sector/mext-research-education-compliance
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:research-grant-access :school-accreditation-clarity :public-spend-transparency]
+ :itonami.blueprint/governor :research-education-compliance-governor
+ :itonami.blueprint/robotics false
+ :itonami.blueprint/required-technologies [:identity :forms :dmn :bpmn :audit-ledger]
+ :itonami.blueprint/status :public-oss}
